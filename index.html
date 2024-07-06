@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <style>
+        .parent{
+            display: flex;
+            width: 980px;
+            height: 430px;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid red;
+            align-content: center;
+            background-color: rgb(176, 199, 199);
+            margin-left: 50px;
+            margin-top: 50px;
+        }
+        .block1{
+           margin: 10px;
+           width: 300px;
+           height: 180px;
+           background-color:white;
+
+        }
+        .image1{
+            height: 60px;
+            width: 60px;
+            position: relative;
+            top: 15px;
+            left: 15px;
+        }
+        .h33{
+            margin-left: 85px;
+            margin-top: -50px
+        }
+        .h44{
+            margin-left:85px ;
+            margin-top: -18px;
+            color: rgb(157, 146, 146);
+        }
+        .h55{
+            margin-top: 15px;
+            margin-left: 25px;
+        }
+        .para1{
+           margin-top: -0px;
+            margin-left: 20px;
+            font-size: 12px
+        }
+        .aa1{
+            color: rgb(9, 95, 233);
+            text-decoration: none;
+            position: relative; 
+            bottom:30px;
+            padding-left: 230px;
+        }
+        .star{
+            color: rgb(19, 231, 33);
+        }
+        .stars1{
+            margin-left: 85px;
+            margin-top: -16px;
+        }
+        .parent .block1{
+            transform: perspective(400px) rotatex(90deg);
+            transform-origin: left;
+            transition: all 2s;
+        }
+
+        .parent:hover .block1{
+            transform: perspective(400px) rotatex(0deg);
+            transition: all 2s;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="block1">
+            <img class="image1" src="./multimedia/images/s_letter.jpg" alt="s">
+            <h3 class="h33">Stripe</h3>
+            <h4 class="h44">Payment services</h4>
+            <div class="stars1">
+                <ion-icon class="star" name="star"></ion-icon>
+             <ion-icon class="star" name="star"></ion-icon>
+             <ion-icon class="star" name="star"></ion-icon>
+             <ion-icon class="star" name="star"></ion-icon>
+             <ion-icon class="star" name="star-half"></ion-icon>
+            </div>
+            <h5 class="h55">Get more content on your users with stripe <br> data inside our platform.</h5>
+            <p class="para1">Installed 172 times</p>
+             <a class="aa1" href="https://stripe.com/in"> <b>View..</b></a> 
+        </div>
+        <div class="block1"> 
+            <img class="image1" src="./multimedia/images/monkey.jpg" alt="">
+            <h3 class="h33">Mailchimp</h3>
+            <h4 class="h44">Project Management</h4>
+            <div class="stars1">
+                <ion-icon class="star" name="star"></ion-icon>
+             <ion-icon class="star" name="star"></ion-icon>
+             <ion-icon class="star" name="star"></ion-icon>
+             <ion-icon class="star" name="star"></ion-icon>
+             <ion-icon class="star" name="star-half"></ion-icon>
+            </div>
+            <h5 class="h55">Capture and sync subscribers from your mailchimp platform to ours with ease.</h5>
+            <p class="para1">Installed 1723 times</p>
+             <a class="aa1" href="https://mailchimp.com/"> <b>View..</b></a>
+        </div>
+        <div class="block1">
+            <img class="image1" src="./multimedia/images/dropbox.jpg" alt="">
+            <h3 class="h33">Dropbox</h3>
+            <h4 class="h44">File Management</h4>
+            <div class="stars1">
+                <ion-icon class="star" name="star"></ion-icon>
+             <ion-icon class="star" name="star"></ion-icon>
+             <ion-icon class="star" name="star"></ion-icon>
+             <ion-icon class="star" name="star"></ion-icon>
+             <ion-icon class="star" name="star-half"></ion-icon>
+            </div>
+            <h5 class="h55">Use dropbox to sync your photos to our platform and share it with others.</h5>
+            <p class="para1">Installed 1249 times</p>
+             <a class="aa1" href="https://www.dropbox.com/"> <b>View..</b></a> 
+        </div>
+        <div class="block1">
+            <img class="image1" src="./multimedia/images/shopify2.webp.crdownload" alt="">
+            <h3 class="h33">Shopify</h3>
+            <h4 class="h44">Ecommerce</h4>
+            <div class="stars1">
+                <ion-icon class="star" name="star"></ion-icon>
+             <ion-icon class="star" name="star"></ion-icon>
+             <ion-icon class="star" name="star"></ion-icon>
+             <ion-icon class="star" name="star"></ion-icon>
+             <ion-icon class="star" name="star-half"></ion-icon>
+            </div>
+            <h5 class="h55">Sell your items with ease with having any website with our free platform.</h5>
+            <p class="para1">Installed 3682 times</p>
+             <a class="aa1" href="https://apps.shopify.com/"> <b>View..</b></a>  
+        </div>
+        <div class="block1">
+            <img class="image1" src="./multimedia/images/a_letter.jpg" alt="">
+            <h3 class="h33">Atlassian</h3>
+            <h4 class="h44">Project management</h4>
+            <div class="stars1">
+                <ion-icon class="star" name="star"></ion-icon>
+             <ion-icon class="star" name="star"></ion-icon>
+             <ion-icon class="star" name="star"></ion-icon>
+             <ion-icon class="star" name="star"></ion-icon>
+             <ion-icon class="star" name="star-half"></ion-icon>
+            </div>
+            <h5 class="h55">Developing products for developers, Ptoject managers and achitects.</h5>
+            <p class="para1">Installed 849 times</p>
+             <a class="aa1" href="https://www.atlassian.com/"> <b>View..</b></a> 
+        </div>
+        <div class="block1">
+            <img class="image1" src="./multimedia/images/salesforce.jpg" alt="">
+            <h3 class="h33">Salesforce</h3>
+            <h4 class="h44">Project Management</h4>
+            <div class="stars1">
+                <ion-icon class="star" name="star"></ion-icon>
+             <ion-icon class="star" name="star"></ion-icon>
+             <ion-icon class="star" name="star"></ion-icon>
+             <ion-icon class="star" name="star"></ion-icon>
+             <ion-icon class="star" name="star-half"></ion-icon>
+            </div>
+            <h5 class="h55">Salesforce, Inc. is an American cloud-based software company.</h5>
+            <p class="para1">Installed 1357 times</p>
+             <a class="aa1" href="https://www.salesforce.com/in/"> <b>View..</b></a> 
+        </div>
+    </div>
+</body>
+</html>
